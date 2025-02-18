@@ -1,15 +1,9 @@
-import Navbar from "../components/Navbar";
-import Onboading from "../components/Onboading";
-
 function Home() {
   return (
-    <div
-      className=" bg-zinc-900 text-white
-    "
-    >
-      <Navbar />
-
-      <Onboading />
+    <div className="flex justify-center items-center  h-screen">
+      <div className=" bg-zinc-900 shadow-md text-white w-min rounded-lg ">
+        <button className=" p-5  px-5 py-4  ">Logout</button>
+      </div>
     </div>
   );
 }
